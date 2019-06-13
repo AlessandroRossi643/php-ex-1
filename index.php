@@ -11,6 +11,7 @@
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
     print $testodacensurare;
+    print "<br><br> Lunghezza Testo:" . strlen($testodacensurare);
 
     $parola1=$_GET['parola1'];
     $parola2=$_GET['parola2'];
